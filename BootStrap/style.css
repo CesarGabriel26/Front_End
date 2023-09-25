@@ -1,0 +1,45 @@
+@media (max-width: 576px){
+    .Principal {
+        background-color: red;
+    }
+}
+
+
+
+@media (min-width: 76px){
+    .Principal {
+        background-color: blue;
+        /*? Pequeno : none*/
+    }
+}
+
+@media (min-width: 576px){
+    .Principal {
+        background-color: orange;
+        /*? Pequeno : sm*/
+    }
+}
+@media (min-width: 768px){
+    .Principal {
+        background-color: green;
+        /*? medio : md*/
+    }
+}
+@media (min-width: 992px){
+    .Principal {
+        background-color: yellow;
+        /*? Grande : lg*/
+    }
+}
+@media (min-width: 1200px){
+    .Principal {
+        background-color: palevioletred;
+        /*? Extra grande : xl*/
+    }
+}
+@media (min-width: 1400px){
+    .Principal {
+        background-color: lightblue;
+        /*? Extra Extra grande : xxl*/
+    }
+}

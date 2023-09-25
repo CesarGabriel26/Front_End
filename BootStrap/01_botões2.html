@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container pt-5">
+    <!-- ! Criando botoes -->
+    <div>
+
+        <h1>Botões</h1>
+        <hr>
+
+        <!-- * ==================================================================
+        !===========================Com BootStrap===========================!
+
+        ? 01 - Tipo primario com cor do texto black
+        ? 02 - Tipo danger com cor do texto dark
+        ? 03 - Tipo warning
+        ? 04 - Tipo info com cor do texto segundary e o background do suxess
+
+        todo: Criar botões usando o elemento da tag "a" e do tipo input:sibmit
+
+        ? 05 - Tag a tipo primary
+        ? 06 - Tag input tipo sucess
+
+        todo: Crie botões do tipo outline
+
+        ? 07 - Botão tipo primary outline
+        ? 08 - Botão tipo warning outline
+
+        todo: Crie botões ocupando uma linha toda
+
+        ? 09 - Do tipo outrline sucess, large e margin top 3
+
+    * ===================================================================-->
+
+        <button class="btn btn-primary text-black">Tipo primario com cor do texto black</button>
+        <button class="btn btn-danger text-dark ">Tipo danger com cor do texto dark</button>
+        <button class="btn btn-warning">Tipo warning</button>
+        <button class="btn btn-info text-body-secondary ">Tipo info com cor do texto segundary e o background do
+            suxess</button>
+
+        <!-- todo: Criar botões usando o elemento da tag "a" e do tipo input:sibmit-->
+
+        <a href="#" class="btn btn-primary ">Tag a tipo primary</a>
+        <input type="button" class="btn btn-success" value="Tag input tipo sucess">
+
+        <!-- todo: Crie bot~es do tipo outline-->
+
+        <button class="btn btn-outline-primary">Botão tipo primary outline</button>
+        <button class="btn btn-outline-warning">Botão tipo warning outline</button>
+
+        <!-- todo: Crie bot~es ocupando uma linha toda-->
+
+        <div class="d-grid gap-2">
+            <button class="btn btn-outline-success btn-lg mt-3 ">Do tipo outrline sucess, large e margin top 3 || width
+                100%</button>
+            <button class="btn btn-outline-success btn-lg mt-3 w-75">Width 75%</button>
+            <button class="btn btn-outline-success btn-lg mt-3 w-50">Width 50%</button>
+            <button class="btn btn-outline-success btn-lg mt-3 w-25">Width 25%</button>
+        </div>
+    </div>
+
+
+
+    <!-- ! Criando um box model -->
+    <div>
+        <h1 class="mt-5">Box model</h1>
+        <hr>
+        <div class="display-1 bg-warning border  border-primary border-5 border rounded-5 text-center">
+            <p>Texte</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

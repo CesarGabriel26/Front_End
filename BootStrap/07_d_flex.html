@@ -1,0 +1,79 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento FlexGrid</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        section {
+            height: 100px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <main class="container ">
+        <h1>1 - Alinhamento centralizado</h1>
+        <section class="row bg-secondary justify-content-center">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>
+
+        <h1>2 - Alinhamento A Direita</h1>
+        <section class="row bg-secondary justify-content-end">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>
+
+        <!--<h1>3 - Alinhamento A Esquerda</h1>
+        <section class="row bg-secondary justify-content-start">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>-->
+
+        <h1>3 - Alinhamento A Esquerda</h1>
+        <section class="row bg-secondary justify-content-between">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>
+
+        <h1>4 - Alinhamento Usando Around</h1>
+        <section class="row bg-secondary justify-content-around ">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>
+
+        <h1>5 - Alinhamento Vertical centralizado</h1>
+        <section class="row bg-secondary justify-content-center align-items-center">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>
+
+        <h1>6 - Alinhamento Vertical embaxio</h1>
+        <section class="row bg-secondary justify-content-center align-items-end">
+            <div class="bg-primary col-3">Div 1</div>
+            <div class="bg-warning col-3">Div 2</div>
+            <div class="bg-primary col-3">Div 3</div>
+        </section>
+
+        <h1>7 - Ordenação das colunas</h1>
+        <section class="row bg-secondary justify-content-center ">
+            <div class="bg-primary col-3 order-3 order-md-1 order-lg-2">Div 1</div>
+            <div class="bg-warning col-3 order-1 order-md-2 order-lg-3">Div 2</div>
+            <div class="bg-primary col-3 order-2 order-md-3 order-lg-1">Div 3</div>
+        </section>
+    </main>
+
+</body>
+</html>
